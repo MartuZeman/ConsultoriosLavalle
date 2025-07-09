@@ -9,26 +9,43 @@
 </head>
 <body>
 
-  <header class="main-header">
+  <header class="main-header" id="main-header">
     <div class="top-bar">
       <img src="./assets/img/Imagen 1.png" alt="Logo" class="logo" />
-      <nav class="menu">
+
+      <!-- Ícono hamburguesa solo para móviles -->
+      <button class="hamburger" id="hamburger">☰</button>
+
+      <!-- Menú horizontal -->
+      <nav class="menu" id="main-menu">
         <a href="#">Inicio</a>
         <a href="#">Profesionales</a>
         <a href="#">Turnos</a>
         <a href="#">Farmacia</a>
       </nav>
     </div>
-    <div class="header-title">
+
+    <!-- Título visible solo al principio -->
+    <div class="header-title" id="header-title">
       <h1>Consultorios Médicos</h1>
     </div>
   </header>
 
+  <!-- Menú lateral desde la derecha -->
+  <aside class="side-menu" id="side-menu">
+    <button class="close-btn" id="close-btn">✖</button>
+    <a href="#">Inicio</a>
+    <a href="#">Profesionales</a>
+    <a href="#">Turnos</a>
+    <a href="#">Farmacia</a>
+  </aside>
+
   <main>
     <section style="height: 2000px;">
-      <!-- Contenido simulado para probar el scroll -->
+      <!-- Contenido de prueba para scroll -->
     </section>
   </main>
+
 
 </body>
 </html>
